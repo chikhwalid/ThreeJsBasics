@@ -1,0 +1,57 @@
+body {
+  font-family: Roboto;
+  font-size: 20px;
+  /* padding: 100px; */
+  color: #444;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #a6fd55, #faf25f);
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+.content__left {
+  /* background: white; */
+  position: absolute;
+  top: 50%;
+  transform: translate(10%, -50%);
+
+  /* padding: 0px; */
+}
+.content__right {
+  background: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(280%, -50%);
+  padding: 100px;
+  border-radius: 20px;
+}
+
+.btn:link,
+.btn:visited {
+  display: block; /*afficher un inline element comme block element*/
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none; /*pour éliminer le sous ligne*/
+  border-radius: 13px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s; /*changement de couleur dans 0.2s*/
+}
+
+.btn-full:link,
+.btn-full:visited {
+  color: rgb(138, 130, 130);
+  background-color: rgb(228, 251, 124);
+  border: 1px solid rgb(243, 255, 235);
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #c1fa8c;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  /* color: white; */
+  border: 1px solid #c1fa8c;
+}
